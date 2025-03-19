@@ -1,4 +1,4 @@
-FROM ubuntu:20.10
+FROM ubuntu:lasts
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
